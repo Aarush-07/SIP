@@ -20,11 +20,11 @@ int main()
    med=bio+((phy+chem)/2.0);
    engg=mat+((phy+chem)/2.0);
    printf("MEDICAL CUTOFF=%.2f\n",med);
-   printf("ENGENEERING CUTOFF=%.2f/n",engg);
+   printf("ENGENEERING CUTOFF=%.2f\n",engg);
    float total,perc,n=6;
    total=mal+eng+mat+phy+chem+bio;
    perc=total/n;
-   printf("TOTAL MARKS=%.2f/n",total);
-   printf("PERCENTAGE=%.2f/n",perc);
+   printf("TOTAL MARKS=%.2f\n",total);
+   printf("PERCENTAGE=%.2f%%",perc);
     return 0;
 }
